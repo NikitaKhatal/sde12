@@ -1,0 +1,139 @@
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+    background-color: gray;
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    border: 2px solid black;
+}
+.header{
+    width: 1200px;
+    height: 150px;
+    background-color: orange;
+}
+.branding{
+    width: 400px;
+    height: 150px;
+    background-color: darkmagenta;
+    float: left;
+}
+.branding img{
+    width: 400px;
+    height: 150px;
+}
+.branding h3{
+    position: absolute;
+    color:yellow;
+    top: 17px;
+    margin-left: 120px;
+    text-align: center;
+    line-height: 100px;
+}
+.socialmedia{
+    width: 800px;
+    height: 100px;
+     float: left; 
+}
+.whatsapp img{
+    width: 200px;
+    height: 100px;
+    float: left; 
+}
+.insta img{
+    width: 200px;
+    height: 100px;
+    float: left; 
+}
+.facebook img{
+    width: 200px;
+    height: 100px;
+    float: left; 
+}
+.telegram img{
+    width: 200px;
+    height: 100px;
+    float: left; 
+}
+.menu{
+    width: 800px;
+    height: 50px;
+    background-color:black;
+    float: left; 
+}
+.menu ul li {
+    float:left;
+    list-style: none;
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 190px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+.menu ul li a{
+    text-decoration:none ;
+    color:white ;
+}
+.menu ul li a:hover{
+    color: yellow;
+}
+.container{
+    width: 1200px;
+    height: 800px;
+    background-color: aqua;
+}
+.gallary{
+    width: 1200px;
+    height: 400px;
+    background-color: yellow;
+    overflow: scroll;
+}
+.gallary img{
+    width: 1200px;
+    height: 400px;
+}
+
+.courses{
+    width: 1200px;
+    height: 400px;
+    background-color:burlywood;
+}
+.pic1 img{
+    border: 2px solid black;
+   width: 298px;
+    height: 400px;
+    float: left;
+}
+.pic2 img{
+    border: 2px solid black;
+    width:298px;
+    height: 400px;
+    float: left;
+}
+.pic3 img{
+    border: 2px solid black;
+    width:298px;
+    height: 400px;
+    float: left;
+
+}
+.pic4 img{
+    border: 2px solid black;
+    width:290px;
+    height: 400px;
+    float: left;
+
+}
+.footer{
+    width: 1200px;
+    height: 50px;
+    background-color: pink;
+    text-align: center;
+    line-height: 55px;
+}
